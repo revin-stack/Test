@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Birthday System 🎂</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- LOADING AWAL -->
+    <div id="loading-screen">
+
+        <div class="loading-box">
+
+            <h2>INITIALIZING SYSTEM...</h2>
+
+            <p id="loading-text">
+                Loading...
+            </p>
+
+            <div class="progress-bar">
+                <div id="progress"></div>
+            </div>
+
+            <p id="percent">0%</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- HALAMAN UTAMA -->
+    <div class="slide active" id="home">
+
+        <h1>🎂 Happy Birthday! 🎂</h1>
+
+        <p>
+            Something 4 U
+        </p>
+
+        <button onclick="startPrank()">
+            Click Here
+        </button>
+
+    </div>
+
+
+    <!-- PRANK NO SIGNAL -->
+    <div class="slide" id="prank">
+
+        <div class="signal-icon">
+            📶
+        </div>
+
+        <h1>NO SIGNAL</h1>
+
+        <p>
+            Connection lost...
+        </p>
+        
+        <p>
+            Wait...
+        </p>
+
+        <p id="prank-countdown">
+            Redirect to...
+        </p>
+
+    </div>
+
+
+    <!-- SLIDE UCAPAN -->
+    <div class="slide" id="birthday">
+
+        <h1>🎉 HAPPY BIRTHDAY 🎉</h1>
+
+        <p class="birthday-text">
+            Happy Birthday Eve 🥳
+        </p>
+
+        <p>
+            Tambah tua nih yee, semoga di tahun ini 
+            semua hal baik datang ke hidup kamu.
+            Semoga selalu sehat, bahagia,
+            dan semua yang kamu inginkan
+            bisa tercapai secepatnya.
+            Galaknya dikurangin yaa
+        </p>
+
+        <p>
+            Tambah tua jangan tambah galak 
+            Rambutku bisa botak lama lama 😁😁
+        </p>
+
+        <button onclick="nextMessage()">
+            One More
+        </button>
+
+    </div>
+
+
+    <!-- SLIDE TERAKHIR -->
+    <div class="slide" id="final">
+
+        <h1> Ah Lupa</h1>
+
+        <p>
+            Tugasnya selesain dulu Infor
+            Semangat kuliahnya Infor 
+            
+        </p>
+
+        <p class="big-text">
+            Semangat Mante 😁
+        </p>
+
+        <p>
+            Becanda yaaa...
+            Mau Matcha ga??
+        </p>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
